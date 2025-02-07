@@ -1,46 +1,61 @@
+# 🎮 **史蒂夫的好基友模组** - 你的贴心方块保镖！
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+**警告：本模组可能让你和史蒂夫产生过命的交情，请谨慎使用！**
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+---
 
-Setup Process:
-==============================
+## 🌟 **功能说明书（人类翻译版）**
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+1. **召唤术**  
+   ➤ 按下`T`输入`help`，立即获得一只会喊666的史蒂夫！  
+   ➤ _（温馨提示：别在岩浆池旁边召唤，除非你想看烤史蒂夫）_
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+2. **智能跟宠2.0**  
+   ➤ 史蒂夫会自动保持"社交距离"——超过10格直接闪现到你面前  
+   ➤ _（实验证明：即使你螺旋升天，他也会牛顿式落地跟随）_
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+3. **锁血挂（合法版）**  
+   ➤ 只有想揍你的生物能打伤他，摔落/溺水/火烧？不存在的！  
+   ➤ _（附带灵魂绑定：他的血条和你心跳同步）_
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+4. **复仇者联盟特训**  
+   ➤ 谁敢动你或史蒂夫，他将开启"护主狂魔"模式  
+   ➤ _（实测战斗力：1.5个铁傀儡，打不过苦力怕时除外）_
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+5. **凤凰重生协议**  
+   ➤ 躺平时会疯狂刷屏`help!!!`  
+   ➤ 用你的"慈母般的目光"对准他，按下`E`即刻满血复活  
+   ➤ _（小声BB：请勿用这功能PUA你的史蒂夫）_
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+6. **分手快乐功能**  
+   ➤ 按下`T`输入`back`，史蒂夫会带着"你变了..."的眼神消失  
+   ➤ _（冷却建议：至少等5分钟再召唤新欢）_
+
+---
+
+## ⚙️ **安装指南**
+
+1. 把模组文件扔进`mods`文件夹（就像往岩浆里丢钻石一样简单）
+2. 启动游戏时默念三声"史蒂夫永不为奴"
+3. _（可选）给你的键盘T键贴个爱心贴纸_
+
+---
+
+## ❗ **注意事项**
+
+⚠️ 在女巫面前炫耀可能导致史蒂夫变成药水实验室  
+⚠️ 同时召唤100个史蒂夫可能会触发"群口相声"BUG  
+⚠️ 本模组对恋爱脑末影人无效  
+
+---
+
+_✨ 开发者留言：  
+"当你对着倒下的史蒂夫按下E键时，  
+请记住——  
+不是你需要他，  
+而是他需要你。"_
+
+---
+
+**挖矿不忘史蒂夫，打架全靠好兄弟！**  
+（遇到BUG请对着天空大喊三声help，我会假装没听见）
